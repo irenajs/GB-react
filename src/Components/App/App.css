@@ -1,0 +1,132 @@
+@import "https://fonts.googleapis.com/css?family=Russo+One";
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  background-color:rgb(255, 255, 255);
+  min-height: 100vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  position: relative;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  flex-direction: column;
+  
+}
+
+.header{
+  display:flex;
+  justify-content: flex-start;
+    gap: 1%;
+    border-bottom: 1px solid rgb(26, 11, 197);
+    min-height: 50px;
+    padding-top: 30px;
+    padding-left: 10px;
+    background-color: #cfe8fc;  
+}
+
+.Chats_bar{
+  color: blue;
+  border: 2px solid blue;
+  background-color: #cfe8fc;
+   width: 400px;
+   height: 300px;
+   opacity: 80%;
+   padding: 30px;
+   border-radius: 10px;
+}
+
+.chats{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  
+}
+
+.Message-box{
+  margin-right: 50px;
+}
+
+.message-form {
+  display: flex;
+  border-radius: 10px; 
+  position: relative;
+  margin-top: 10px;
+  
+}
+
+.message_input{
+  width: 460px;
+  margin-top: 10px;
+}
+
+.bordered{
+  border: 1px solid yellow; 
+  opacity: 80%;
+  background-color: white;
+  width: 100%;
+}
+
+.MuiFormControl-fullWidth {
+  background-color: white;
+}
+
+
+ .send{
+   height: 55px;
+   color: white;
+   background-color: blueviolet;
+   align-self: flex-end;
+   border-bottom-right-radius: 5px;
+   border-top-right-radius: 5px;
+ }
+ .text{
+   color: black;
+ }
+
+ button{
+  color:rgb(8, 8, 8);
+  padding: 10px 20px;
+  width:100px;
+  text-decoration:none;
+  text-align:center;
+  margin:20px auto;
+  display: block;
+ }
+ button:hover {
+ background-position: 0 0;
+ color:rgb(190, 202, 235);
+ }
+ 
+p { 
+  position: relative;
+  letter-spacing: .05em;
+}
+
+.home_content{
+  display: flex;
+  gap: 20%;
+  flex-direction: column;
+}
+
+.userPhoto{
+  border: 1px solid rgba(228, 248, 230, 0.712);
+    width: 150px;
+    height: 150px;
+    background-image: url(img/doggy.jpg);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+
+.send{
+  color: whitesmoke;
+}
+
+.remove_btn{
+  background-color: whitesmoke;
+}
+
