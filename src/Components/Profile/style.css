@@ -1,0 +1,28 @@
+.Profile_container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.user__info {
+   min-width: 300px;
+   background-color: #cfe8fc;   
+    opacity: 90%;
+    padding: 10px;
+    border-right: 1px solid blue;
+    border-top: 1px solid blue;
+    margin-top: 10px;
+
+}
+
+
+.user_online{
+    display: flex;
+    align-items: baseline;
+}
+
+.user__post{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 50%;
+}
